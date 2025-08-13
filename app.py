@@ -127,3 +127,4 @@ if st.button("🔍 Predict Loan Approval"):
         st.markdown(f"<div class='success-box'>✅ Loan Status: {status}</div>", unsafe_allow_html=True)
     else:
         st.markdown(f"<div class='error-box'>❌ Loan Status: {status}</div>", unsafe_allow_html=True)
+
