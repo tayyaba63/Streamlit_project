@@ -3,9 +3,9 @@ import pandas as pd
 import joblib
 
 #  Load Save Files
-model = joblib.load(r"E:\mohsineen python work\Microsoft VS Code\tayyaba\loan_prediction_project\loan_model.pkl")
-scaler = joblib.load(r"E:\mohsineen python work\Microsoft VS Code\tayyaba\loan_prediction_project\scaler.pkl")
-label_encoders = joblib.load(r"E:\mohsineen python work\Microsoft VS Code\tayyaba\loan_prediction_project\label_encoders.pkl")
+model = joblib.load("loan_model.pkl")
+scaler = joblib.load("scaler.pkl")
+label_encoders = joblib.load("label_encoders.pkl")
 
 #App Title
 st.title("🏦 Loan Approval Prediction App")
