@@ -11,7 +11,7 @@ import os
 
 
 # 1. Load dataset
-df = pd.read_csv(r"E:\mohsineen python work\Microsoft VS Code\tayyaba\loan_prediction_project\data\loan_approval2_dataset.csv")
+df = pd.read_csv("loan_approval2_dataset.csv")
 # 2. Drop ID column
 df = df.drop(columns=['loan_id'])
 
